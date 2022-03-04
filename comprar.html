@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compras</title>
+    <link rel="stylesheet" href="Style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Pacifico&display=swap');
+    </style>
+</head>
+<body class="body">
+    <header class="Portada">
+        <img src="compras.jpg" width="100%" height="600px">
+
+        <nav class="menu1">
+            <span class="menu">
+                <a id="enlaces" href="home.html">Inicio</a>
+                <a id="enlaces" href="#Programacion">Programación</a>
+                <a id="enlaces" href="#Artistas">Artistas</a>
+            </span>
+        </nav>
+    </header>
+    <main>
+        <section >
+            <p>
+            <h1 class="titulo">Enviamos tus reserva</h1>
+            </p>
+            <form action="formSucess.html" method="POST">
+                <div >
+                    <div class="datos">
+                        <div>
+                            <label for="username">Nombre Completo:</label>
+                        </div>
+
+                        <div>
+                            <input type="text" name="username" id="username"><br>
+                        </div>
+
+                        <div>
+                            <label for="age">Edad:</label>
+                        </div>
+
+                        <div>
+                            <input type="number" name="age" id="age" step="18"><br>
+                        </div>
+
+                    </div>
+
+                    <div class="datos">
+                        <div>
+                            <label for="phone">Celular:</label>
+                        </div>
+
+                        <div>
+                            <input type="number" name="phone" id="phone"><br>
+                        </div>
+
+                        <div>
+                            <label for="Genero">Genero:</label><br>
+                        </div>
+
+                        <div>
+                            <select name="genre" id="Genero">
+                                <option value="none"></option>
+                                <option value="Masculino">Masculino</option>
+                                <option value="Femenino">Femenino</option>
+                                <option value="No deseo responder">No deseo responder</option>
+
+                            </select><br>
+                        </div>
+
+                    </div>
+
+                    <tr>
+                        <td>
+                            <label for="Ciudad">Selecciona tu Ciudad: </label><br>
+                        </td>
+
+                        <td>
+
+                            <input type="text" list="barrios">
+                            <datalist id="barrios">
+                                <option value="Cali"></option>
+                                <option value="Bogota"></option>
+                                <option value="Santa Marta"></option>
+                                <option value="Barranquilla"></option>
+                                <option value="Bucaramanga"></option>
+                                <option value="Medellin"></option>
+                                <option value="Villavicencio"></option>
+                                <option value="Manizales"></option>
+                                <option value="Pereira"></option>
+                                <option value="Monteria"></option>
+                            </datalist><br>
+                        </td>
+
+                        <td>
+                            <label for="Dirección">Dirección: </label><br>
+                        </td>
+
+                        <td>
+                            <input type="text" name="Dirección" id="Dirección"><br>
+                        </td>
+
+                    </tr>
+                    <br>
+                    <br>
+                    <tr>
+                        <td>
+                            <label for="Juegas"> ¿Juegas tenis?:</label>
+                        </td>
+
+                        <td>
+                            <label for="Si">SI</label>
+                            <input type="checkbox" name="SI" id="SI">
+                            <label for="NO">NO</label>
+                            <input type="checkbox" name="NO" id="NO"><br>
+                        </td>
+
+                        <td>
+                            <label for="Jugador"> ¿Cuál es tu jugador favorito? :</label>
+                        </td>
+
+                        <td>
+                            <input type="text" list="Jugadores">
+                            <datalist id="Jugadores">
+                                <option value="Novak Djokovic"></option>
+                                <option value="Daniil Medvedev"></option>
+                                <option value="Alexander Zverev"></option>
+                                <option value="Stefanos Tsitsipas"></option>
+                                <option value="Rafael Nadal"></option>
+                                <option value="Matteo Berrettini"></option>
+                                <option value="Andrey Rublev"></option>
+                                <option value="Roger Federer"></option>
+                                <option value="Gael Monfils"></option>
+                                <option value="Grigor Dimitrov"></option>
+                            </datalist><br>
+                        </td>
+
+                    </tr>
+                    <br>
+                    <br>
+
+                    <table style="text-align:center; padding: 0px 280px 0px 280px; ;" width="100%" cellpadding="2">
+                        <tr>
+                            <td>
+                                <label for="Email"> Correo Electronico:</label><br><br><br>
+                            </td>
+                            <td>
+                                <input type="email" name="Email" id="Email"><br><br><br>
+                            </td>
+
+                            <br>
+                            <br>
+                        </tr>
+
+                        <table style="text-align:center; " width="100%" cellpadding="1"></table>
+                        <tr>
+                            <td>
+                                <label for="comments">Dejanos tus comentarios </label><br><br>
+                            </td>
+                            <td>
+                                <textarea name="comments" id="comments" cols="40" rows="15"></textarea><br>
+                            </td>
+                        </tr>
+                    </table>
+                            
+                            <input type="submit" value="Finalizar"><br>
+
+
+
+
+
+
+            </form>
+</html>

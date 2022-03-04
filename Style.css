@@ -1,0 +1,217 @@
+
+.body{
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    background-color: #4c0847;
+    color: white ;
+    
+
+}
+.menu{
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    background-color: #4c0847;
+    
+   
+}
+.menu1{
+    background-color: #4c0847;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+    word-spacing: 1em;
+    
+}
+#enlaces{
+    color: white;
+    text-decoration: none;
+}
+nav {
+    float: left; /* Desplazamos el nav hacia la izquierda */
+    
+  }
+  @keyframes grid {
+    0% {color: rgba(229, 255, 0, 0.993); font-size: 24px; }
+    50% {color: rgb(0, 255, 221); font-size: 30px;}
+    100% {color: rgb(22, 248, 1); font-size: 35px;}
+}
+.grid{
+    margin-top: 20px;
+    display: grid;
+    text-align: center;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 20px 20px 20px;
+    font-family: 'Lobster', cursive;
+    font-size: 24px;
+    animation-name: grid;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in;
+    
+
+}
+.grid1{
+    display: grid;
+    text-align: center;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 10px 10px 10px;
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
+    row-gap: 6em;
+
+}
+@keyframes Nota {
+    0% {color: rgba(229, 255, 0, 0.993); }
+    25% {color: rgb(253, 0, 0); }
+    50% {color: rgba(231, 87, 4, 0.945); }
+    75% {color: rgba(247, 210, 0, 0.699); }
+    100% {color: rgb(248, 1, 228); }
+}
+.nota{
+    font-family: 'Lobster', cursive;
+    font-size: 40px;
+    animation-name: Nota;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-timing-function: ease-in;
+}
+.titulo
+{
+    font-family: 'Lobster', cursive;
+    font-size: 45px;
+    text-align: center;
+    margin-top: 40px;
+}
+.Imagenes
+{
+     margin-top: 40px;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 10px 10px 10px;
+    row-gap: 8em;
+    text-align: center;
+   
+}
+
+img{
+    border-radius: 20px ;
+}
+.Titulos_Artistas
+{
+    margin-top: 40px;
+    display: grid;
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+    text-align: center;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 10px 10px 10px;
+     
+}
+.boton
+{
+    text-align: right;
+    grid-template-columns: 100%;
+    margin-top: 50px;
+    position: relative;
+    display: grid;
+    margin-right: 60px;
+    
+}
+#centrado{
+    font-family: 'Lobster', cursive;
+    font-size: 25px;
+    position: absolute;
+    top: 47%;
+    right: 3%;
+    transform: translate(-50%, -50%);
+    color: black;
+    text-decoration: none;
+   
+}
+.Imagenes_Ar{
+
+    margin-top: 100px;    
+    margin-right: 40px;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 10px 10px 10px 10px;
+    row-gap: 30em;
+    text-align: center;
+
+}
+.titulos_Ar{
+    font-family: 'Lobster', cursive;
+    font-size: 25px;
+}
+.espacio{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    width: 330px;
+    height: 400px;
+
+    
+}
+.ubicacion{
+    margin-top: 50px;
+  text-align: center;
+}
+.como_llegar  {
+    display: grid;
+    grid-template-columns: 28% 28% 28%;
+}
+@keyframes Carrito {
+
+    0% {transform: translateX(0); }
+    25% {transform: translateX(30em);}
+    50% {transform: translateX(50em); }
+    75% {transform: translateX(60em); }
+    100% {transform: translateX(75em); }
+}
+
+.carrito{
+    margin-top: 10em;
+    margin-left: 60px;
+    animation-name: Carrito;
+    animation-duration: 5s;
+    animation-iteration-count: calc(5);
+    animation-direction: alternate;
+       
+}
+@keyframes bus {
+
+    100% {transform: translateX(-1em); }
+    75% {transform: translateX(-10em);}
+    50% {transform: translateX(-30em); }
+    25% {transform: translateX(-50em); }
+    0% {transform: translateX(-70em); }
+}
+.bus{
+    margin-top: 25em;
+    margin-left: 15em;
+    animation-name: bus;
+    animation-duration: 5s;
+    animation-iteration-count: calc(5);
+    animation-direction: alternate-reverse;
+}
+
+.play1
+{
+    margin-top: 40px;
+    text-align: center;
+}
+.datos{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    font-family: 'Lobster', cursive;
+    font-size: 25px;
+}
+
+  
+
+  
+ 
