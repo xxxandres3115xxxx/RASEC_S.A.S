@@ -18,8 +18,7 @@
         <nav class="menu1">
             <span class="menu">
                 <a id="enlaces" href="home.html">Inicio</a>
-                <a id="enlaces" href="#Programacion">Programación</a>
-                <a id="enlaces" href="#Artistas">Artistas</a>
+                
             </span>
         </nav>
     </header>
@@ -36,7 +35,7 @@
                         </div>
 
                         <div>
-                            <input type="text" name="username" id="username"><br>
+                            <input type="text" name="username" id="username"  required><br>
                         </div>
 
                         <div>
@@ -44,7 +43,7 @@
                         </div>
 
                         <div>
-                            <input type="number" name="age" id="age" step="18"><br>
+                            <input type="number" name="age" id="age" step="1" required><br>
                         </div>
 
                     </div>
@@ -55,7 +54,7 @@
                         </div>
 
                         <div>
-                            <input type="number" name="phone" id="phone"><br>
+                            <input type="tel" name="phone" id="phone" pattern="[0-9]+"><br>
                         </div>
 
                         <div>
@@ -74,14 +73,14 @@
 
                     </div>
 
-                    <tr>
-                        <td>
+                    <div class="datos">
+                        <div>
                             <label for="Ciudad">Selecciona tu Ciudad: </label><br>
-                        </td>
+                        </div>
 
-                        <td>
+                        <div>
 
-                            <input type="text" list="barrios">
+                            <input type="text" list="barrios"  required>
                             <datalist id="barrios">
                                 <option value="Cali"></option>
                                 <option value="Bogota"></option>
@@ -94,80 +93,54 @@
                                 <option value="Pereira"></option>
                                 <option value="Monteria"></option>
                             </datalist><br>
-                        </td>
+                        </div>
 
-                        <td>
-                            <label for="Dirección">Dirección: </label><br>
-                        </td>
+                        <div>
+                            <label for="Email">Email: </label><br>
+                        </div>
 
-                        <td>
-                            <input type="text" name="Dirección" id="Dirección"><br>
-                        </td>
+                        <div>
+                            <input type="email" name="Email" id="Email" required><br>
+                        </div>
 
-                    </tr>
-                    <br>
-                    <br>
-                    <tr>
-                        <td>
-                            <label for="Juegas"> ¿Juegas tenis?:</label>
-                        </td>
+                    </div>
+                    
+                    <div class="datos">
+                        <div>
+                            <label for="Localidad"> Localidad :</label>
+                        </div>
 
-                        <td>
-                            <label for="Si">SI</label>
-                            <input type="checkbox" name="SI" id="SI">
-                            <label for="NO">NO</label>
-                            <input type="checkbox" name="NO" id="NO"><br>
-                        </td>
-
-                        <td>
-                            <label for="Jugador"> ¿Cuál es tu jugador favorito? :</label>
-                        </td>
-
-                        <td>
-                            <input type="text" list="Jugadores">
-                            <datalist id="Jugadores">
-                                <option value="Novak Djokovic"></option>
-                                <option value="Daniil Medvedev"></option>
-                                <option value="Alexander Zverev"></option>
-                                <option value="Stefanos Tsitsipas"></option>
-                                <option value="Rafael Nadal"></option>
-                                <option value="Matteo Berrettini"></option>
-                                <option value="Andrey Rublev"></option>
-                                <option value="Roger Federer"></option>
-                                <option value="Gael Monfils"></option>
-                                <option value="Grigor Dimitrov"></option>
+                        <div>
+                            <input type="text" list="Localidad"  required>
+                            <datalist id="Localidad">
+                                <option value="Norte"></option>
+                                <option value="Occidental"></option>
+                                <option value="Oriental"></option>
+                                <option value="Platino"></option>
+                                <option value="VIP"></option>
+                                <option value="Palco"></option>
+                                
                             </datalist><br>
-                        </td>
+                        </div>
+                        <div>
+                            <label for="Cantidad">Cantidad:</label>
+                        </div>
 
-                    </tr>
-                    <br>
-                    <br>
+                        <div>
+                            <input type="number" name="Cantidad" id="Cantidad" step="1"  required ><br>
+                        </div>
 
-                    <table style="text-align:center; padding: 0px 280px 0px 280px; ;" width="100%" cellpadding="2">
-                        <tr>
-                            <td>
-                                <label for="Email"> Correo Electronico:</label><br><br><br>
-                            </td>
-                            <td>
-                                <input type="email" name="Email" id="Email"><br><br><br>
-                            </td>
-
-                            <br>
-                            <br>
-                        </tr>
-
-                        <table style="text-align:center; " width="100%" cellpadding="1"></table>
-                        <tr>
-                            <td>
-                                <label for="comments">Dejanos tus comentarios </label><br><br>
-                            </td>
-                            <td>
-                                <textarea name="comments" id="comments" cols="40" rows="15"></textarea><br>
-                            </td>
-                        </tr>
-                    </table>
                             
-                            <input type="submit" value="Finalizar"><br>
+                        </div>
+
+                        
+
+                    </div>
+                  
+                    <div class="submit">
+                        <input type="image" src="reservar-yellow-button-md.png"><br>
+                    </div>                           
+                            
 
 
 

@@ -201,7 +201,7 @@ img{
 
 .play1
 {
-    margin-top: 40px;
+    margin-top: 60px;
     text-align: center;
 }
 .datos{
@@ -209,9 +209,52 @@ img{
     grid-template-columns: 25% 25% 25% 25%;
     font-family: 'Lobster', cursive;
     font-size: 25px;
+    margin-top: 40px;
+    margin-left: 50px;
+    margin-right: 0%;
+
 }
+.submit{
+    
+    display: grid;
+    grid-template-columns: 100%;
+    margin-top: 40px;
+    margin-left: 540px;
+}
+.patrocinios
+  {
+    margin-top: 60px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+  }
 
-  
-
-  
+  .titulo1{
+    font-family: 'Lobster', cursive;
+    font-size: 45px;
+    text-align: center;
+    margin-top: 100px;
+  }
+  .footer
+  {
+    margin-top: 80px;
+    font-family: 'Lobster', cursive;
+    font-size: 35px;
+    text-align: center;
+  }
+  .precios
+  {
+    display: grid ;
+    grid-template-columns: 50% 50%;
+    margin-top: 50px;
+    margin-left: 180px;
+    margin-right: 180px;
+    font-family: 'Lobster', cursive;
+    font-size: 35px;
+    text-align: center;
+  }
+  .reserva{
+      margin-top: 50px;
+      text-align: center;
+  }
  
